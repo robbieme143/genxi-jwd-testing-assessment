@@ -46,10 +46,10 @@ describe('Calculator', () => {
 
         });
   
-        it('should add the numbers together', () => {
+        it('should subtract the numbers together', () => {
           const calculator = new Calculator();
-          const result = calculator.add(1, 2);
-          expect(result).toBe(3);
+          const result = calculator.subtract(10, 2);
+          expect(result).toBe(8);
         });
       });
   });
@@ -73,10 +73,10 @@ describe('Calculator', () => {
 
         });
   
-        it('should add the numbers together', () => {
+        it('should multiply numbers together', () => {
           const calculator = new Calculator();
-          const result = calculator.add(1, 2);
-          expect(result).toBe(3);
+          const result = calculator.multiply(15, 2);
+          expect(result).toBe(30);
         });
       });
   });

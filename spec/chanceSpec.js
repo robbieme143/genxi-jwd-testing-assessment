@@ -15,7 +15,7 @@ describe('HeadsOrTails', () => {
   describe('#Tails', () => {
     describe('when the coin flip is false', () => {
       it('should return tails', () => {
-        // spy on coin.flip and change its return value to always be true
+       // spy on coin.flip and change its return value to always be false
         spyOn(coin, 'flip').and.returnValue(false);
 
         const result = headsOrTails();
